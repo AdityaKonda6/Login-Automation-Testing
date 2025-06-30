@@ -75,6 +75,7 @@ mvn clean test
 ---
 
 If you'd like help adding a GitHub Actions CI workflow or TestNG HTML reporting, just say the word!
+```
 
 <img align="right" height="250" width="375" alt="" src="https://github.com/AdityaKonda6/AdityaKonda6/blob/main/giphy2.webp" />
 
