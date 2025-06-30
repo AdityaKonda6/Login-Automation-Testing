@@ -1,7 +1,7 @@
-# 🔐 Login Automation Testing - Soundbox QA Suite
+# 🔐 Login Automation Testing - For Any Website
 
 This project automates login testing for the [Soundbox](https://soundbox.dev.sb.cwdin.com/login) web application using **Java**, **Selenium WebDriver**, **TestNG**, and **Maven**.
-
+But you can change the url and do the login automation testing for any website
 ---
 
 ## ✅ Features
