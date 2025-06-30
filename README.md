@@ -74,8 +74,102 @@ mvn clean test
 
 ---
 
-If you'd like help adding a GitHub Actions CI workflow or TestNG HTML reporting, just say the word!
 ```
+
+✅ 1. Install Java Development Kit (JDK)
+🔗 Download: Adoptium Java 17+
+
+⚙️ After installation:
+
+Set environment variable:
+JAVA_HOME = C:\Program Files\Eclipse Adoptium\jdk-21 (or your install path)
+
+Add to Path:
+%JAVA_HOME%\bin
+
+
+🔍 Verify:
+```
+bash
+Copy
+Edit
+java -version
+```
+✅ 2. Install Apache Maven
+🔗 Download: Maven Downloads
+
+📂 Extract and set environment variables:
+MAVEN_HOME = C:\apache-maven-3.9.x
+Add to Path: %MAVEN_HOME%\bin
+
+🔍 Verify:
+```
+bash
+Copy
+Edit
+mvn -version
+```
+✅ 3. Install Google Chrome
+🔗 Download Chrome
+
+📌 Make sure it is updated to the latest version
+
+✅ 4. Download Matching ChromeDriver
+🔗 Check your Chrome version:
+```
+Go to chrome://settings/help
+```
+🔗 Download matching driver:
+ChromeDriver Downloads
+
+📁 Place chromedriver.exe in your project’s drivers/ folder
+Or add it to the system PATH.
+
+✅ 5. Install an IDE (Optional but Recommended)
+💡 Recommended: Visual Studio Code or IntelliJ IDEA Community Edition
+
+✅ 6. Clone the Project from GitHub
+```
+bash
+Copy
+Edit
+git clone https://github.com/your-username/SoundboxLoginTest.git
+cd SoundboxLoginTest
+```
+✅ 7. Build and Run the Project
+```
+Open terminal inside project folder:
+bash
+Copy
+Edit
+mvn clean test
+```
+✅ 8. (Optional) Install Git if you don’t have it
+🔗 Git Downloads
+
+🧪 Technologies You Now Have Installed
+```
+| Tool                  | Purpose                               |
+| --------------------- | ------------------------------------- |
+| Java JDK              | For compiling and running Java        |
+| Maven                 | For managing dependencies and build   |
+| Chrome                | To open and test the website          |
+| ChromeDriver          | Interface between Selenium and Chrome |
+| IDE (VSCode/IntelliJ) | Easier coding and debugging           |
+| Git                   | Version control and GitHub access     |
+```
+
+🔎 Troubleshooting Tips
+```
+| Problem                  | Fix                                                  |
+| ------------------------ | ---------------------------------------------------- |
+| `NoSuchElementException` | Check if IDs are changing dynamically                |
+| Chrome doesn't open      | Check `chromedriver.exe` version matches Chrome      |
+| `mvn` not recognized     | Check your Maven PATH setup                          |
+| Test not doing anything  | Add `Thread.sleep()` or check dynamic loading (AJAX) |
+```
+
+If you'd like help adding a GitHub Actions CI workflow or TestNG HTML reporting, just say the word!
 
 <img align="right" height="250" width="375" alt="" src="https://github.com/AdityaKonda6/AdityaKonda6/blob/main/giphy2.webp" />
 
