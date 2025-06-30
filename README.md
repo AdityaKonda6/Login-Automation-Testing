@@ -15,7 +15,7 @@ This project automates login testing for the [Soundbox](https://soundbox.dev.sb.
 ---
 
 ## 📁 Project Structure
-
+```
 SoundboxLoginTest/
 ├── drivers/ # ChromeDriver executable
 ├── screenshots/ # Screenshot output directory
@@ -30,7 +30,7 @@ SoundboxLoginTest/
 ├── pom.xml # Maven configuration
 └── README.md # You're reading it!
 
-
+```
 ---
 
 ## 🔧 Prerequisites
